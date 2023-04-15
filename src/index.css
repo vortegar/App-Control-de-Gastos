@@ -117,6 +117,8 @@ header h1 {
         padding: 1rem 5rem;
     }
 }
+
+
 .formulario input[type="submit"]:hover {
     background-color: #042a67;
     cursor: pointer;
@@ -403,4 +405,37 @@ body .modal {
     align-items: center;
     font-size: 2.4rem;
     text-align: right;
+}
+
+@media (max-width: 395px){
+    .formulario label {
+        text-align: center;
+    }
+    .formulario input[type="number"]{
+        width: 100%;
+    }
+    
+    .filtros label {
+        font-size: 2rem;
+    }
+
+    .filtros select{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .formulario input[type="text"], 
+    .formulario input[type="number"],
+    .formulario select,
+    .formulario input[type="submit"] {
+        margin-left: 3rem;
+        width: 80%;
+    }
+    .nuevo-gasto {
+        right: 3rem ;
+    }
+    .formulario legend{
+        margin-right: 5rem;
+        margin-left: 3rem;
+    }
 }
